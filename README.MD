@@ -65,7 +65,7 @@ O código, originalmente apresentado em um formato de Jupyter Notebook, realiza 
     * Se estiver usando um Jupyter Notebook (`.ipynb`), execute as células na ordem em que aparecem.
     * Se adaptado para um script Python, execute o script:
         ```bash
-        python seu_script.py
+        python rede_neural.py
         ```
 4.  **Dataset:** O dataset MNIST será baixado automaticamente na primeira execução para a pasta `./data`.
 5.  **Dispositivo:** O código detectará automaticamente se uma GPU compatível com CUDA está disponível e a utilizará para acelerar o treinamento e a validação. Caso contrário, usará a CPU.
